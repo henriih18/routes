@@ -7,10 +7,10 @@ export const Navbar = () => {
   return (
     <nav>
       <ul>
-        <li><a href='/'>Inicio</a></li>
-        <li><a href='/contactUs'>Contáctame</a></li>
-        <li><a href='/aboutUs'>Acerca de Mi</a></li>
-        <li><a href='*'>Rutas falsas</a></li>        
+        <li><NavLink to='/'>Inicio</NavLink></li>
+        <li><NavLink to='/contactUs'>Contáctame</NavLink></li>
+        <li><NavLink to='/aboutUs'>Acerca de Mi</NavLink></li>
+        <li><NavLink to='*'>Rutas falsas</NavLink></li>        
       </ul>
     </nav>
   )

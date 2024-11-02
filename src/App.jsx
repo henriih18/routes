@@ -13,7 +13,13 @@ function App() {
   return (
     <>      
       <Navbar />
-      <Container>       
+      <Container>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/AboutUs" element={<AboutUs/>}/>
+          <Route path="/ContactUs" element={<ContactUs/>}/>
+          <Route path="*" element={<OtherRoutes/>}/>
+        </Routes>       
       </Container>
     </>
   )
